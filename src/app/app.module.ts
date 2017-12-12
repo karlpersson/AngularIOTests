@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BannerInlineComponent } from './banner-inline/banner-inline.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TwainComponent } from './twain/twain.component';
+import { DashboardHeroComponent } from './dashboard-hero/dashboard-hero.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { TwainComponent } from './twain/twain.component';
     AppComponent,
     BannerInlineComponent,
     WelcomeComponent,
-    TwainComponent
+    TwainComponent,
+    DashboardHeroComponent
   ],
   imports: [
     BrowserModule
