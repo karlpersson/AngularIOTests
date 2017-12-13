@@ -1,7 +1,7 @@
 import { async, inject, ComponentFixture, TestBed
 } from '@angular/core/testing';
 
-import { addMatchers } from '../jasmine-matchers';
+//import { addMatchers } from '../jasmine-matchers';
 import { click } from '../index';
 import { HeroService }        from '../hero.service';
 import { FakeHeroService }    from '../fake-hero.service';
@@ -16,7 +16,7 @@ class RouterStub {
   navigateByUrl(url: string) { return url; }
 }
 
-beforeEach ( addMatchers );
+//beforeEach ( addMatchers );
 
 let comp: DashboardComponent;
 let fixture: ComponentFixture<DashboardComponent>;

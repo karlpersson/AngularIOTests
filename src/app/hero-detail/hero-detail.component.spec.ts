@@ -18,7 +18,7 @@ import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 import { HeroDetailService }   from '../hero-detail.service';
 import { HeroModule }          from '../hero.module';
 
-import { addMatchers } from '../jasmine-matchers';
+//import { addMatchers } from '../jasmine-matchers';
 
 ////// Testing Vars //////
 let activatedRoute: ActivatedRouteStub;
